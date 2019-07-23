@@ -9,4 +9,7 @@ jobs:
 
       - run:
           name: Greeting
-          command: java -jar BuildTools.jar --rev latest
+          command: java -jar BuildTools.jar --rev 1.14.4
+
+      - store_artifacts:
+          path: /
