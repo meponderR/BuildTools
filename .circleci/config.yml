@@ -8,8 +8,7 @@ jobs:
       - checkout
 
       - run:
-          name: Greeting
-          command: java -jar BuildTools.jar --rev 1.14.4
+          command: java -jar BuildTools.jar --rev 1.14.3
 
       - store_artifacts:
-          path: spigot-1.14.4.jar
+          path: spigot-1.14.3.jar
