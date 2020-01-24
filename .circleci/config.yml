@@ -8,7 +8,7 @@ jobs:
       - checkout
 
       - run:
-          command: java -jar BuildTools.jar --rev 1.14.3
+          command: java -jar BuildTools.jar --rev 1.15.1
 
       - store_artifacts:
-          path: spigot-1.14.3.jar
+          path: spigot-1.15.jar
